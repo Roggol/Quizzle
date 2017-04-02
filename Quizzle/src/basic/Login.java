@@ -101,7 +101,7 @@ public class Login {
 						//set file title for comma separated format
 					
 						for (int i = 0; i < arrayLines.length; i++) {
-							// for loop for amount of items in array
+							// loop for amount of items in array
 							configString = arrayLines[i].split(",");
 							if (configString[0].contains(usernameCheck)) {
 								//checks to see if the username is inside the array
